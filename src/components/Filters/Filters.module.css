@@ -1,0 +1,73 @@
+.filtersContainer {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.filterTitle {
+    color: #5D768B;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+.filterGroup {
+    margin-bottom: 1.5rem;
+}
+
+.filterGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #5D768B;
+}
+
+.priceRange {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.priceRange input[type="range"] {
+    width: 100%;
+}
+
+.priceValues {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #5D768B;
+}
+
+.checkboxGroup {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 0.5rem;
+}
+
+.checkboxGroup label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.locationInput {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+@media (max-width: 768px) {
+    .checkboxGroup {
+        grid-template-columns: 1fr;
+    }
+}

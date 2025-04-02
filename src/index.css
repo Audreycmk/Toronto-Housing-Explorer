@@ -1,0 +1,17 @@
+/* body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #d4cfe0;
+} */
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    15deg,
+    #F8EFE5 0%,    /* Ivory Breeze */
+    #F2D9C7 50%,   /* Soft Seashell Pink */
+    #E3C9A4 100%   /* Golden Driftwood */
+  );
+}
